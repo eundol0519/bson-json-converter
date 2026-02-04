@@ -50,14 +50,3 @@ cd "c:\Users\admin\Downloads\0. 중요\bson을 json으로 변환하는 프로그
 npm install    # 처음 한번만
 npm start      # 변환 실행
 ```
-
-## Troubleshooting
-
-**"Node.js not found" error**
-→ Install Node.js from https://nodejs.org/
-
-**No files converted**
-→ Make sure your files have `.bson` extension
-
-**Encoding issues**
-→ Don't worry! The JSON files are saved correctly with UTF-8 encoding
