@@ -1,4 +1,21 @@
+# 빌드 출력 및 의존성
 node_modules/
-*.log
+package-lock.json
+
+# 각 변환 폴더의 입출력 내용물
+bson-to-json/input/*
+bson-to-json/output/*
+json-to-bson/input/*
+json-to-bson/output/*
+
+# 폴더는 유지 (gitkeep 파일로)
+!bson-to-json/input/.gitkeep
+!bson-to-json/output/.gitkeep
+!json-to-bson/input/.gitkeep
+!json-to-bson/output/.gitkeep
+
+# 기타
 .DS_Store
+Thumbs.db
+*.log
 .env
