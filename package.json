@@ -1,0 +1,21 @@
+{
+    "name": "bson-to-json-converter",
+    "version": "1.0.0",
+    "description": "BSON 파일을 JSON 파일로 변환하는 프로그램",
+    "main": "convert.js",
+    "type": "module",
+    "scripts": {
+        "start": "node simple-convert.js",
+        "convert": "node simple-convert.js"
+    },
+    "keywords": [
+        "bson",
+        "json",
+        "converter"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bson": "^6.10.2"
+    }
+}
